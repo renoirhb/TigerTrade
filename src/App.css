@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Moirai+One&display=swap" rel="stylesheet');
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.intro {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  -webkit-text-stroke: 0.5px white;
+
+}
+
+.form {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.form-title {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  
+}
+.form-button {
+  font-size: 22px;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.form-error {
+  -webkit-text-stroke: 0.5px red;
+}
+
+.form-footer {
+  font-size: 22px;
+}
+.form-link {
+  -webkit-text-stroke: 0.5px oklch(85.2% 0.199 91.936);
+}
+
+
+.logo {
+  font-family: "Moirai One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-text-stroke: 1.5px oklch(85.2% 0.199 91.936);
+  font-size: 45px;
+}
+.tab {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  -webkit-text-stroke: 0.5px white;
+}
+.tab a{
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease, -webkit-text-stroke 0.2s ease;
+}
+
+.tab a:hover{
+  text-decoration: underline;
+  color: #eec316;
+}
+
+.tab a.active {
+  color: #ecbf0e;
+  -webkit-text-stroke: 0.5px oklch(85.2% 0.199 91.936)
+}
+
+.option {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
